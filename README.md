@@ -22,7 +22,7 @@ To get one:
 
 1. https://github.com/settings/tokens → **Generate new token (classic)**
 2. Select `public_repo` scope
-3. Add to `~/.zshrc`: `export GITHUB_TOKEN=ghp_...`
+3. Add to `~/.bashrc` (or whatever shell you use): `export GITHUB_TOKEN=ghp_...`
 
 If you have `gh` CLI installed and authed, the script detects it automatically.
 
